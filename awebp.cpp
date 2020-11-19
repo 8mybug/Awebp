@@ -5,7 +5,7 @@
 #include "form.h"
 #include "common.h"
 
- #pragma execution_character_set("utf-8")
+
 
 static const QString style = "";
 
@@ -22,7 +22,7 @@ Awebp::Awebp(QWidget *parent)
     setCentralWidget(content);
 
     // 添加按钮
-    mButton = new QPushButton("你好北京", content);
+    mButton = new QPushButton("导入图片", content);
     mButton->setCursor(Qt::PointingHandCursor);
 
     connect(mButton, SIGNAL(clicked()), this, SLOT(onClicked()));

@@ -1,8 +1,10 @@
-#ifndef AWEBP_H
+﻿#ifndef AWEBP_H
 #define AWEBP_H
 
 #include <QMainWindow>
 #include "qpushbutton.h"
+
+#pragma execution_character_set("utf-8")
 
 class Awebp : public QMainWindow
 {

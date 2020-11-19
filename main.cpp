@@ -17,7 +17,7 @@ static void SYSLOG(const char *format, ...) {
 #endif
 
 
-//你手机
+// 输出stderr到日志文件
 void myMessageHandler(QtMsgType type, const QMessageLogContext &, const QString & str) {
     const char *msg = str.toLocal8Bit().data();
     switch (type) {
